@@ -10,9 +10,9 @@
 
 ## 사용한 모듈들 
 
-    **nltk**
-    **gensim**
-    **tensorflow**
+    nltk
+    gensim
+    tensorflow
 
 <small> 2018년 8월 현재, 가장 최신버젼을 선치한 상태에서 확인하였습니다</small>
 
