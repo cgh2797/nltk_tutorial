@@ -26,6 +26,16 @@ Python 사전지식을 바탕으로 **자연어 분석**에 필요한 **용어�
 
 ## 강의 슬라이드
 
+
+[wordcloud 실습을 활용한 기본개념 익히기](https://www.slideshare.net/YBkim2/1-wordcloud)
+
+[sentence 구조 분석](https://www.slideshare.net/YBkim2/2-108206182)
+
+[meaning 의미 분석, 머신러닝 활용](https://www.slideshare.net/YBkim2/3-108206422)
+
+[RNN 선형대수, 딥러닝 활용](https://www.slideshare.net/YBkim2/4-rnn)
+
+
 전체 과정은 4개의 슬라이드로 구성이 되어 있고, 이들은 순서에 따른 연계성을 갖기 때문에 이해안되는 부분이 있으면 앞의 내용을 한번 더 복습한 뒤 진도를 나아가는 방식으로 진행을 하면 많은 도움이 될 것이다.
 
 
