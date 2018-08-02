@@ -11,6 +11,8 @@
 ## 사용한 모듈들 
 
     nltk
+    konlpy
+    sklearn
     gensim
     tensorflow
 
