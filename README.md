@@ -7,21 +7,20 @@
 
 ## NLTK 설치가 안되는 경우
 
-`nltk.download()` 또는
 
-`$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 
+>  pip3 install -U nltk 
 
-> CERTIFICATE_VERIFY_FAILED] certificate verify failed
+> import nltk; nltk.download('punkt')
 
-오류로 서버와 연결이 안되는 경우에는, 수동으로 Punkt Tokenizer Models 다운받아서 설치를 해야 한다
+위의 방법을 사용하면 기본적인 Tag 분류 기능은 작동을 한다
 
-[NLTK](http://www.nltk.org/nltk_data/) 이곳에서 punkt를 찾아 다운로드를 받는다
+위와 같은 방법으로도 해결이 안되어서, 
 
-    Windows: C:\nltk_data\tokenizers
-    OSX: /usr/local/share/nltk_data/tokenizers
-    Unix: /usr/share/nltk_data/tokenizers
+> nltk.download()
 
-다운받은 파일을 운영체계별로 해당하는 폴더에 수동으로 압축을 풀어준다. 보다 자세한 설명은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
+> sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
+
+를 실행한 결과 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버와 연결 오류가 발생하는 경우에는, 수동으로 Punkt Tokenizer Models 다운받아서 설치를 하면 된다. 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
 
 
 
