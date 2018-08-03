@@ -9,17 +9,21 @@
 
 `nltk.download()` 또는
 
-`$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 오류를 출력하면서 다운이 안되는 경우 수동으로 Punkt Tokenizer Models를 설치해보자
+`$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 
 
-[NLTK](http://www.nltk.org/nltk_data/)
+> `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 
 
-이곳에서 punkt를 찾아 다운로드를 받는다
+오류로 서버와 연결이 안되는 경우에는 수동으로 Punkt Tokenizer Models 다운받아서 설치를 해야 한다
+
+[NLTK](http://www.nltk.org/nltk_data/) 이곳에서 punkt를 찾아 다운로드를 받는다
 
     Windows: C:\nltk_data\tokenizers
     OSX: /usr/local/share/nltk_data/tokenizers
     Unix: /usr/share/nltk_data/tokenizers
 
-다운받은 파일을 운영체계별로 해당하는 폴더에 수동으로 압축을 풀어준다. 보다 자세한 설명은 [블로그](http://pubdata.tistory.com/154) 또는 동영상으로 설명이 되고있는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
+다운받은 파일을 운영체계별로 해당하는 폴더에 수동으로 압축을 풀어준다. 보다 자세한 설명은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
+
+
 
 
 # 예제와 코드로 알아보는 파이썬 자연어 분석
