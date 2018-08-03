@@ -7,11 +7,19 @@
 
 ## NLTK 설치가 안되는 경우
 
-파이썬 에서 `nltk.download()`를 하면 다음과 같은 창과 함께 오류 메시지가 출력되고 다운로드가 되지 않는되는 문제가 발생한다
+`nltk.download()` 또는
 
-터미널 에서 `$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 오류를 출력하면서 다운이 안되는 문제가 발생한다 
+`$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 오류를 출력하면서 다운이 안되는 경우 수동으로 Punkt Tokenizer Models를 설치해보자
 
-이와같은 경우에는 아래의 동영상을 참고하여 수동으로 설치하는 방법으로 해결을 해야한다 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946)
+[NLTK](http://www.nltk.org/nltk_data/)
+
+이곳에서 punkt를 찾아 다운로드를 받는다
+
+    Windows: C:\nltk_data\tokenizers
+    OSX: /usr/local/share/nltk_data/tokenizers
+    Unix: /usr/share/nltk_data/tokenizers
+
+다운받은 파일을 운영체계별로 해당하는 폴더에 수동으로 압축을 풀어준다. 보다 자세한 설명은 [블로그](http://pubdata.tistory.com/154) 또는 동영상으로 설명이 되고있는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
 
 
 # 예제와 코드로 알아보는 파이썬 자연어 분석
