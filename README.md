@@ -5,6 +5,15 @@
 </figure>
 
 
+## NLTK 설치가 안되는 경우
+
+파이썬 에서 `nltk.download()`를 하면 다음과 같은 창과 함께 오류 메시지가 출력되고 다운로드가 되지 않는되는 문제가 발생한다
+
+터미널 에서 `$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 오류를 출력하면서 다운이 안되는 문제가 발생한다 
+
+이와같은 경우에는 아래의 동영상을 참고하여 수동으로 설치하는 방법으로 해결을 해야한다 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946)
+
+
 # 예제와 코드로 알아보는 파이썬 자연어 분석
 
 
