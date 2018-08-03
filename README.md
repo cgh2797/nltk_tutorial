@@ -11,9 +11,9 @@
 
 `$ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all` 를 사용해도 
 
-> `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 
+> CERTIFICATE_VERIFY_FAILED] certificate verify failed
 
-오류로 서버와 연결이 안되는 경우에는 수동으로 Punkt Tokenizer Models 다운받아서 설치를 해야 한다
+오류로 서버와 연결이 안되는 경우에는, 수동으로 Punkt Tokenizer Models 다운받아서 설치를 해야 한다
 
 [NLTK](http://www.nltk.org/nltk_data/) 이곳에서 punkt를 찾아 다운로드를 받는다
 
