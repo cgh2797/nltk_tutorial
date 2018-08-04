@@ -30,11 +30,11 @@
 
 ## 사용한 모듈
 
-    nltk == 3.2.5
-    konlpy == 0.4.4
-    scikit-learn == 0.19.1
+    nltk == 3.3
+    konlpy == 0.5.1
+    scikit-learn == 0.19.2
     gensim == 3.5.0
-    tensorflow == 1.7.0
+    tensorflow == 1.9.0
 
 
 
