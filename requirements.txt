@@ -1,0 +1,11 @@
+gensim==3.5.0
+jupyterlab==0.33.6
+konlpy==0.5.1
+matplotlib==2.2.2
+nltk==3.3
+pandas==0.23.3
+scikit-learn==0.19.2
+scipy==1.1.0
+sklearn==0.0
+tensorflow-gpu==1.9.0
+wordcloud==1.5.0
