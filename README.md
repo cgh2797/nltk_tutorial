@@ -32,7 +32,9 @@
 
     nltk == 3.3
     konlpy == 0.5.1
+    wordcloud == 1.5.0
     scikit-learn == 0.19.2
+    scipy == 1.1.0
     gensim == 3.5.0
     tensorflow == 1.9.0
 
