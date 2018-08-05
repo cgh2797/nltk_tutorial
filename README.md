@@ -3,23 +3,17 @@
 
 <figure class="align-left">
   <img src="https://i.stack.imgur.com/0F2k3.png" alt="">
-  <figcaption>nltk 설치오류 메세지</figcaption>
+  <figcaption>nltk.download() 설치오류 메세지</figcaption>
 </figure>
+
+과거 버젼에서 사용되었던 `nltk.download()` 를 사용하면 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버연결 오류로 문제가 발생합니다. 이 대에는 오류 메세지에서 제시하는 각각의 Corpus 파일을 다운받는 방법으로 문제를 해결을 합니다 
 
 
 >  pip3 install -U nltk 
 
 > import nltk; nltk.download('punkt')
 
-위의 방법을 사용하면 기본적인 Tag 분류 기능은 작동을 한다
-
-위와 같은 방법으로도 해결이 안되어서, 
-
-> nltk.download()
-
-> sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
-
-를 실행한 결과 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버와 연결 오류가 발생하는 경우에는, 수동으로 Punkt Tokenizer Models 다운받아서 설치를 하면 된다. 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
+만약 위의 방법으로도 해당 Corpus 가 설치되지 않고 계속 오류메세지를 출력하는 경우에는 수동으로 Punkt Tokenizer Models 다운받아서 설치를 하면 되고. 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하세요
 
 
 
