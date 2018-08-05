@@ -60,13 +60,13 @@ Python 사전지식을 바탕으로 **자연어 분석**에 필요한 **용어�
 ## 강의 슬라이드
 
 
-[wordcloud 실습을 활용한 기본개념 익히기](https://www.slideshare.net/YBkim2/1-word-cloud-108677087)
+[Step1 wordcloud 실습을 활용한 기본개념 익히기](https://www.slideshare.net/YBkim2/1-word-cloud-108677087)
 
-[sentence 문장분석](https://www.slideshare.net/YBkim2/2-108677123)
+[Step2 sentence 문장분석](https://www.slideshare.net/YBkim2/2-108677123)
 
-[meaning 의미분석 / 베이지안 분류](https://www.slideshare.net/YBkim2/3-108677208)
+[Step3 meaning 의미분석 / 베이지안 분류](https://www.slideshare.net/YBkim2/3-108677208)
 
-[RNN 딥러닝 활용](https://www.slideshare.net/YBkim2/4-108677404)
+[Step4 RNN 딥러닝 활용](https://www.slideshare.net/YBkim2/4-108677404)
 
 
 전체 과정은 4개의 슬라이드로 구성이 되어 있고, 이들은 순서에 따른 연계성을 갖기 때문에 이해안되는 부분이 있으면 앞의 내용을 한번 더 복습한 뒤 진도를 나아가는 방식으로 진행을 하면 많은 도움이 될 것입니다.
