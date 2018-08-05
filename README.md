@@ -13,7 +13,7 @@
 
 > import nltk; nltk.download('punkt')
 
-만약 위의 방법으로도 해당 Corpus 가 설치되지 않고 계속 오류메세지를 출력하는 경우에는 수동으로 Punkt Tokenizer Models 다운받아서 설치를 하면 되고. 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하세요
+만약 위의 방법으로도 해당 Corpus 가 설치되지 않고 계속 오류메세지를 출력하는 경우에는 수동으로 각각의 함수에서 요청하는 Corpus를 다운받아 설치하면 되며, 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하세요
 
 
 
