@@ -1,11 +1,10 @@
 
-<figure class="align-left">
-  <img src="https://static1.squarespace.com/static/538cea80e4b00f1fad490c1b/54668a77e4b00fb778d22a34/54668d8ae4b00fb778d2859c/1416007413413/NLTK.png" alt="">
-  <figcaption>nltk 자연어 분석도구</figcaption>
-</figure>
-
-
 ## NLTK 설치가 안되는 경우
+
+<figure class="align-left">
+  <img src="/i.stack.imgur.com/0F2k3.png" alt="">
+  <figcaption>nltk 설치오류 메세지</figcaption>
+</figure>
 
 
 >  pip3 install -U nltk 
@@ -23,6 +22,12 @@
 를 실행한 결과 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버와 연결 오류가 발생하는 경우에는, 수동으로 Punkt Tokenizer Models 다운받아서 설치를 하면 된다. 자세한 내용은 [블로그](http://pubdata.tistory.com/154) 또는 [동영상 해결방법](https://programmers.co.kr/learn/courses/21/lessons/946) 을 참고하면 된다
 
 
+
+
+<figure class="align-left">
+  <img src="https://static1.squarespace.com/static/538cea80e4b00f1fad490c1b/54668a77e4b00fb778d22a34/54668d8ae4b00fb778d2859c/1416007413413/NLTK.png" alt="">
+  <figcaption>nltk 자연어 분석도구</figcaption>
+</figure>
 
 
 # 예제와 코드로 알아보는 파이썬 자연어 분석
