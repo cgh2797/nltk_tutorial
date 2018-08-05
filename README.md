@@ -2,7 +2,7 @@
 ## NLTK 설치가 안되는 경우
 
 <figure class="align-left">
-  <img src="/i.stack.imgur.com/0F2k3.png" alt="">
+  <img src="https://i.stack.imgur.com/0F2k3.png" alt="">
   <figcaption>nltk 설치오류 메세지</figcaption>
 </figure>
 
