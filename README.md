@@ -3,10 +3,10 @@
 
 <figure class="align-left">
   <img src="https://i.stack.imgur.com/0F2k3.png" alt="">
-  <figcaption>nltk.download() 설치오류 메세지</figcaption>
+  <figcaption></figcaption>
 </figure>
 
-과거 버젼에서 사용되었던 `nltk.download()` 를 사용하면 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버연결 오류로 문제가 발생합니다. 이 대에는 오류 메세지에서 제시하는 각각의 Corpus 파일을 다운받는 방법으로 문제를 해결을 합니다 
+과거 버젼에서 사용되었던 `nltk.download()` 를 사용하면 `CERTIFICATE_VERIFY_FAILED] certificate verify failed` 서버연결 오류로 문제가 발생합니다. 이와같은 경우에는 위와 같이 오류 메세지에서 제시하는 대로 따르면 됩니다, 이는 **각각의 Corpus 파일을 다운받는 방법**으로 문제를 해결을 합니다 
 
 
 >  pip3 install -U nltk 
