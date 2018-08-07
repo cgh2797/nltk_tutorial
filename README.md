@@ -58,7 +58,7 @@ Python 기본지식과 딥러닝 기본 이론을 학습해본 분들을 대상�
 
 [Step3 meaning 의미분석 / 베이지안 분류](https://www.slideshare.net/YBkim2/3-108677208)
 
-[Step4 RNN 딥러닝 활용](https://www.slideshare.net/YBkim2/4-108709452)
+[Step4 RNN 딥러닝 활용](https://www.slideshare.net/YBkim2/4-108841428)
 
 
 전체과정을 4개의 슬라이드로 분할 구성하였고, 각 각 순서에 따른 연계성을 갖으므로, 이해안되는 부분이 있으시다면 앞의 내용을 한번 더 복습한 뒤 진도를 나아가는 방식으로 진행하시면 도움이 될 것입니다.
