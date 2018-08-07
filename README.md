@@ -54,7 +54,7 @@
 <small>모든 슬라이드는 slideshare 에 공유를 하였고, **linked in** 또는 **Facebook** 계정만 있으면 다운로드 가능합니다</small>
 
 
-[Step1 wordcloud 실습을 활용한 기본개념 익히기](https://www.slideshare.net/YBkim2/1-word-cloud-108677087)
+[Step1 wordcloud 실습을 활용한 기본개념 익히기](https://www.slideshare.net/YBkim2/1-word-cloud-108912512)
 
 [Step2 sentence 문장분석](https://www.slideshare.net/YBkim2/2-108677123)
 
